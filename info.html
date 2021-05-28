@@ -3,6 +3,13 @@
 <head>
 	<title>info</title>
 	<style>
+		table td {
+			border: 1px black soild;
+			text-align: center;
+			font-size: 30px;
+			width: 250px;
+            height: 150px;  
+		}
 		html, body {
 			width: 100%;
 			height: 100%; 
@@ -33,12 +40,13 @@ yellow;
 			float: right;
 		}
 		#container ul {
-			list-stlye: circle;
+			list-style: circle;
 		}
-	</stlye>
+
+	</style>
 </head>
 <body>
-	<div id="header'>
+	<div id="header">
 		<h1>My homepage</h1>
 	</div>
 	<div id="nav">
@@ -50,16 +58,33 @@ yellow;
 			<li>오늘계획</li>
 		</ul>
 	</div>
-	<div id="container'>
-		<img src="info.jpg">
-		<ul>
-			<li>이름 : 박준혁</li>
-			<li>나이 : 17</li>
-			<li>생일 : 2005.09.26</li>
-			<li>희망학과 : 컴퓨터공학과</li>
-		</ul>
-		<p>방문객에게 한마디!</p>
-		<p>야옹야옹</p>
+	<div id="container">
+        <table>
+            <tr>
+                <td rowspan>수요일</td>
+                <td>교실</td>
+                <td>과목</td>
+            </tr>
+            <tr>
+                <td>1교시</td>
+                <td>실험</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td>국어</td>
+            </tr>
+            <tr>
+                <td>3교시</td>
+                <td>정보</td>
+            </tr>
+            <tr>
+                <td>4교시</td>
+                <td>미술</td>
+            </tr>
+			<tr>
+				<td colspan>점심시간</td>
+			</tr>
+        </table>
 	</div>
 	<div id="footer">
 		https://github.com/Dimolt0/sewha.git
